@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Guia do Turista</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+
+
+  <h1 class="element" align=center>Guia do Turista</h1>
+  <table width=600 height=100 align=center>
+    <tbody>
+      <tr>
+        <th><a href="index.php" class="myButton">Mapa</a></th><th><a href="sobre.html" class="myButton">Sobre</a></th><th><a href="#" class="myButton">Cadastro</a></th><th><a href="inserirpontos.html" class="myButton">Insira pontos</a></th>
+      </tr>
+    </tbody>
+  </table>
+</head>
+
+<body>
+    <div class="container">
+    <h1>Se inscreva para receber dicas de pontos turísticos</h1>
+    <form method="POST" action="formulario.php">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" required name=nome/>
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="text" class="form-control" id="email" name="email" required/>
+      </div>
+
+
+      <div class="form-group">
+        <label for="fone">Fone</label>
+        <input type="text" class="form-control" id="fone" name="fone" required>
+      </div>
+
+      <button type="submit" class="btn btn-success">Enviar</button>
+
+    </form>
+        <br><br><br><br><br><br><br><br><br>
+
+        <footer>
+        <small>Este site esta bobre a licença  <a href="http://choosealicense.com/licenses/apache-2.0/"> Apache 2.0</a></small>
+        </footer>
+    </div>
+
+</body>
